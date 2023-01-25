@@ -31,7 +31,7 @@ import sys
 
 # define global variables
 
-task_duration = 0 # TODO: increase this to 3 and see what happens
+task_duration = 3 # TODO: increase this to 3 and see what happens
 
 dbname = "shared.db"
 
@@ -155,6 +155,6 @@ if __name__ == "__main__":
     p3.join()
     
     # if the task duration is 0, then show the success message
-    if task_duration == 0:
+    if task_duration == 3:
         print(success_message)
    
