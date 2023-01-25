@@ -24,14 +24,14 @@ Executing multiple_processes.py script.
 Read the output. Read the code. 
 Try to figure out what's going on. 
 
-1. What libraries did we import?
-1. Where do we set the task_duration?
-1. How many functions are defined? 
-1. What are the function names? 
-1. In general, what does each function do? 
-1. Where does the execution begin?
-1. How many processes do we start?
-1. How many records does each process insert?
+1. What libraries did we import? sqlite3, time, multiprocessing, os, datetime, platform, & sys
+1. Where do we set the task_duration? 3 seconds
+1. How many functions are defined? 6
+1. What are the function names? con, cur, cur.execute, conn.commit, conn.close
+1. In general, what does each function do? create a table
+1. Where does the execution begin? the bottom of the file
+1. How many processes do we start? 3
+1. How many records does each process insert? 2
 
 In this first run, we start 3 processes, 
 each inserting 2 records into a shared database 
@@ -95,15 +95,15 @@ Do a web search to find helpful videos on anything that seems confusing.
 Python has pretty helpful error messages. 
 When you get an error, read them carefully. 
 
-- What error do you get?
-- Can you tell what line it was executing when it failed?
+- What error do you get? sqlite3.OperationalError: database is locked
+- Can you tell what line it was executing when it failed? Process 3
 
 
 ## Database Is Locked Error
 
 Do a web search on the sqlite3 'database is locked' error.
 
-- What do you learn?
+- What do you learn? Using the article written at https://zditect.com/blog/58992979.html, sqlite cannot access the database because it is already open in another connection, sqlite times out while waiting for the database to be unlocked. 
 - Once a process fails, it crashes the main process and everything stops. 
 
 ## Deadlock

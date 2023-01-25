@@ -5,3 +5,74 @@ This will clear the console output.
 Run the file once while the tasks are short. 
 
 Copy and paste the terminal results (when task_duration is 0) here.
+
+==============================================================
+==============================================================
+
+ Welcome! 
+
+ It's 2023-01-24 at 03:35 PM
+
+ This file is running on:    nt Windows 10
+
+ The Python version is:      3.10.9
+
+ The Python interpreter is at:
+ C:\Users\macli\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+
+ The active environment should be either conda OR pip (one should be None):     
+
+     Active conda env is: None
+     Active pip env is:   None
+
+ The path to the active virtual environment is:
+
+ C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0
+
+ The Current Working Directory (CWD) where this command was launched is:        
+
+ C:\Users\macli\Documents\44-671StreamingData\Module02\streaming-02-multiple-processes
+
+ The absolute path to the data directory is:
+
+ C:\Users\macli\Documents\44-671StreamingData\Module02\streaming-02-multiple-processes\
+
+ The absolute path to this source directory is:
+
+ c:\Users\macli\Documents\44-671StreamingData\Module02\streaming-02-multiple-processes
+
+ The absolute path to this file is:
+
+ c:\Users\macli\Documents\44-671StreamingData\Module02\streaming-02-multiple-processes\about.py
+
+==============================================================
+==============================================================
+
+
+PS C:\Us> & C:/Users/macli/AppData/Local/Microsoft/WindowsApps/python3.10.exe c:/Users/macli/Documents/44-671StreamingData/Module02/streaming-02-multiple-processes/multiple_processes.py
+
+
+STARTING UP.............................
+It's 2023-01-24 at 07:16 PM
+
+This file is running on:    nt Windows 10
+The Python version is:      3.10.9
+
+The Python interpreter is at:
+ C:\Users\macli\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+
+
+DELETED tabble pets.
+CREATED table pets.
+
+P1 getting ready to insert Ace the Dog.
+P1 ADDED Ace the Dog.
+P2 getting ready to insert Cooper the Rabbit.
+P3 getting ready to insert Emma the Rabbit.
+P1 getting ready to insert Buddy the Dog.
+P3 ADDED Emma the Rabbit.
+P3 getting ready to insert Felix the Cat.
+P1 ADDED Buddy the Dog.
+P2 ADDED Cooper the Rabbit.
+P2 getting ready to insert Dufus the Dog.
+P2 ADDED Dufus the Dog.
